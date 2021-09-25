@@ -11,7 +11,11 @@
       crossorigin="anonymous"
     />
     <link href="styles/portfolio.css" rel="stylesheet" />
-    <title>Lisa Wolf: Portfolio: Home</title>
+    <meta
+      name="description"
+      content="Lisa is a photographer based in the Southern Antipodes"
+    />
+    <title>Photographer - Lisa Wolf - Current Projects</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -27,13 +31,23 @@
     <div class="container">
       <nav class="d-flex justify-content-between">
         <a href="/">
-          <img class="logo" src="/images/WolfHeadAvatar64.png" />
+          <img
+            class="logo"
+            src="/images/WolfHeadAvatar64.png"
+            alt="Lisa Wolf Logo"
+          />
         </a>
         <ul>
-          <li><a href="/">Home</a></li>
-          <li><a href="/about.html">About</a></li>
-          <li class="active"><a href="/work.html">Current</a></li>
-          <li><a href="/contact.html">Contact</a></li>
+          <li><a href="/" title="Home Page">Home</a></li>
+          <li>
+            <a href="/about.html" title="About Lisa">About</a>
+          </li>
+          <li class="active">
+            <a href="/work.html" title="Current Projects">Current</a>
+          </li>
+          <li>
+            <a href="/contact.html" title="Contact methods">Contact</a>
+          </li>
         </ul>
       </nav>
     </div>
@@ -104,33 +118,59 @@
             <p>Let's work together!</p>
           </div>
           <div>
-            <a href="/contact.html" class="btn btn-branding">Contact me</a>
+            <a
+              href="/contact.html"
+              title="Contact methods"
+              class="btn btn-branding"
+              >Contact me</a
+            >
           </div>
         </div>
         <div class="d-flex justify-content-center mb-4">
-          <a href="mailto:darkladywolf@tpg.com.au" class="email-link"
+          <a
+            href="mailto:darkladywolf@tpg.com.au"
+            class="email-link"
+            title="Email Lisa Wolf"
             >darkladywolf@tpg.com.au</a
           >
         </div>
         <div class="d-flex justify-content-center social-links">
           <ul>
             <li>
-              <a href="https://www.facebook.com/LisaWolfAU/" target="_blank"
+              <a
+                href="https://www.facebook.com/LisaWolfAU/"
+                target="_blank"
+                title="Facebook"
                 ><i class="fab fa-facebook"></i
               ></a>
             </li>
             <li>
-              <a href="https://twitter.com/MsLisaWolf" target="_blank"
+              <a
+                href="https://twitter.com/MsLisaWolf"
+                target="_blank"
+                title="Twitter"
                 ><i class="fab fa-twitter"></i
               ></a>
             </li>
             <li>
-              <a href="https://blog.hotpinkmonkeysocks.com" target="_blank"
+              <a
+                href="https://blog.hotpinkmonkeysocks.com"
+                target="_blank"
+                title="Wordpress Blog"
                 ><i class="fab fa-wordpress-simple"></i
               ></a>
             </li>
           </ul>
         </div>
+        <p class="text-center mt-5">
+          This project was coded by Lisa Wolf and it is
+          <a
+            href="https://github.com/LadyDarkWolf/Portfolio"
+            title="Github Repository"
+            target="_blank"
+            >open source</a
+          >
+        </p>
       </footer>
     </div>
     <script
